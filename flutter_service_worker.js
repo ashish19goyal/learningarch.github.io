@@ -14,11 +14,10 @@ const RESOURCES = {
 "assets/assets/images/3.0x/logo.jpg": "bb3eb182b6fac6fab8f11757d0da5330",
 "assets/LICENSE": "da693755d0b91d2f1168bf441c806a50",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "df878bc6b74baf9a546b90a437db6ae1",
-"/": "df878bc6b74baf9a546b90a437db6ae1",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796"
+"icons/Icon-300.png": "077107d4288b0d2fd6e8189ac99ea058",
+"index.html": "94028219e6fb121d74e68ed6e94b5888",
+"/": "94028219e6fb121d74e68ed6e94b5888",
+"favicon.png": "0edfdfdde6f2b0a981efbd5023eef979"
 };
 
 self.addEventListener('activate', function (event) {
