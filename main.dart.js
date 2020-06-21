@@ -59063,7 +59063,7 @@ $.aja=H.a([0,0,0],u.t)
 $.ajb=H.a([0,0,0,0],u.t)
 $.aA=null
 $.acK=P.ae(["BASE_URL","192.168.0.58:5555"],u.N,u.z)
-$.akU=P.ae(["BASE_URL","3.6.37.10:5555"],u.N,u.z)
+$.akU=P.ae(["BASE_URL","https://api.learningarch.in"],u.N,u.z)
 $.adw=null
 $.a5j=null
 $.o7=null})();(function lazyInitializers(){var t=hunkHelpers.lazy
