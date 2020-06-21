@@ -53079,7 +53079,7 @@ Ii:function(a,b){var t=0,s=P.G(u.z),r,q=2,p,o=[],n=this,m,l,k,j,i,h,g
 var $async$c6=P.C(function(c,d){if(c===1){p=d
 t=q}while(true)switch(t){case 0:h=null
 q=4
-m=P.L5("http",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,b,null)
+m=P.L5("https",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,b,null)
 k=J.bH($.aA.a,"auth-token")?J.a_($.aA.a,"auth-token"):null
 j=u.N
 t=7
@@ -53108,7 +53108,7 @@ Z8:function(a,b,c){var t=0,s=P.G(u.z),r,q=2,p,o=[],n=this,m,l,k,j,i,h,g
 var $async$f4=P.C(function(d,e){if(d===1){p=e
 t=q}while(true)switch(t){case 0:h=null
 q=4
-m=P.L5("http",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,b,c)
+m=P.L5("https",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,b,c)
 k=J.bH($.aA.a,"auth-token")?J.a_($.aA.a,"auth-token"):null
 j=u.N
 t=7
@@ -53137,7 +53137,7 @@ Yj:function(a,b){var t=0,s=P.G(u.z),r,q=2,p,o=[],n=this,m,l,k,j,i,h,g
 var $async$q4=P.C(function(c,d){if(c===1){p=d
 t=q}while(true)switch(t){case 0:h=null
 q=4
-m=P.L5("http",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,a,b)
+m=P.L5("https",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,a,b)
 k=J.bH($.aA.a,"auth-token")?J.a_($.aA.a,"auth-token"):null
 j=u.N
 t=7
@@ -53166,7 +53166,7 @@ a0I:function(a,b){var t=0,s=P.G(u.z),r,q=2,p,o=[],n=this,m,l,k,j,i,h,g
 var $async$hQ=P.C(function(c,d){if(c===1){p=d
 t=q}while(true)switch(t){case 0:h=null
 q=4
-m=P.L5("http",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,a,null)
+m=P.L5("https",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,a,null)
 k=J.bH($.aA.a,"auth-token")?J.a_($.aA.a,"auth-token"):null
 j=u.N
 t=7
@@ -53195,7 +53195,7 @@ a0U:function(a,b,c){var t=0,s=P.G(u.z),r,q=2,p,o=[],n=this,m,l,k,j,i,h,g
 var $async$rb=P.C(function(d,e){if(d===1){p=e
 t=q}while(true)switch(t){case 0:h=null
 q=4
-m=P.L5("http",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,b,null)
+m=P.L5("https",J.bH($.aA.a,"BASE_URL")?J.a_($.aA.a,"BASE_URL"):null,b,null)
 k=J.bH($.aA.a,"auth-token")?J.a_($.aA.a,"auth-token"):null
 j=u.N
 t=7
@@ -59063,7 +59063,7 @@ $.aja=H.a([0,0,0],u.t)
 $.ajb=H.a([0,0,0,0],u.t)
 $.aA=null
 $.acK=P.ae(["BASE_URL","192.168.0.58:5555"],u.N,u.z)
-$.akU=P.ae(["BASE_URL","https://api.learningarch.in"],u.N,u.z)
+$.akU=P.ae(["BASE_URL","api.learningarch.in"],u.N,u.z)
 $.adw=null
 $.a5j=null
 $.o7=null})();(function lazyInitializers(){var t=hunkHelpers.lazy
