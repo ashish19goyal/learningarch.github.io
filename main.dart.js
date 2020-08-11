@@ -13281,7 +13281,7 @@ q.LM(new S.BG(null))
 q.B4()
 return P.D(null,r)}})
 return P.E($async$ad9,r)},
-av0:function(a){var s,r,q,p,o,n=H.a([],t.sG),m=K.asU(H.a([a],t.i),!0,null,",",'"','"',"\n",!0,!0).c0(a)
+av0:function(a){var s,r,q,p,o,n=H.a([],t.sG),m=K.asU(H.a([a],t.i),!0,null,",",'"','"',"\r\n",!0,!0).c0(a)
 if(m.length<=1)return null
 s=m[0]
 for(r=t.ck,q=1;q<m.length;++q){p=new H.bV(r)
@@ -59342,7 +59342,7 @@ s.f=!0},
 $S:0}
 A.w1.prototype={
 a0:function(){var s=t.i
-return new A.Mt(H.a(["VIII","IX","X","XI","XII"],s),H.a(["Science","Social","Biology","Physics","Chemistry"],s),H.a(["objective","subjective"],s),C.j)}}
+return new A.Mt(H.a(["VIII","IX","X","XI","XII"],s),H.a(["Science","Socials","Biology","Physics","Chemistry"],s),H.a(["objective","subjective"],s),C.j)}}
 A.Mt.prototype={
 A:function(a){var s=this,r=null,q=Y.ei(a,!1,t.E),p=H.a([],t.t),o=q.a
 p.push(s.Lh(o.a))
