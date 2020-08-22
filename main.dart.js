@@ -6740,7 +6740,7 @@ $.aq.dO(r,"firebase-user",s)},
 ew:function(){var s=0,r=P.D(t.z),q,p,o
 var $async$ew=P.z(function(a,b){if(a===1)return P.A(b,r)
 while(true)switch(s){case 0:o=Date.now()
-s=o-P.jV(J.bB($.aq.a,"token-generated-time")?J.aE($.aq.a,"token-generated-time"):null,null)>35e5?2:3
+s=o-P.jV(J.bB($.aq.a,"token-generated-time")?J.aE($.aq.a,"token-generated-time"):null,null)>3500?2:3
 break
 case 2:P.dw("refreshing auth token")
 s=4
