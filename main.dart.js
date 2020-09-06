@@ -8105,7 +8105,7 @@ $.ar.e5(r,"firebase-user",s)},
 eX:function(){var s=0,r=P.A(t.z),q
 var $async$eX=P.w(function(a,b){if(a===1)return P.x(b,r)
 while(true)switch(s){case 0:q=Date.now()
-if(q-P.kD(J.bF($.ar.a,"token-generated-time")?J.ac($.ar.a,"token-generated-time"):null,null)>3500){P.cU("refreshing auth token")
+if(q-P.kD(J.bF($.ar.a,"token-generated-time")?J.ac($.ar.a,"token-generated-time"):null,null)>35e5){P.cU("refreshing auth token")
 q=A.W3()
 q.a0j(q.gkq().N7()).u8(0,new Y.aiy())}return P.y(null,r)}})
 return P.z($async$eX,r)},
