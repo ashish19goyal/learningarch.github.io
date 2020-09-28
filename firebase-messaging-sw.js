@@ -1,7 +1,5 @@
-importScripts("https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js");
-importScripts(
-  "https://www.gstatic.com/firebasejs/7.14.2/firebase-messaging.js"
-);
+importScripts("https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js");
+importScripts("https://www.gstatic.com/firebasejs/7.5.0/firebase-messaging.js");
 var firebaseConfig = {
   apiKey: "AIzaSyDH3DcbibkFVWC2rIe6-JYsk2DrqMXiAXw",
   authDomain: "learning-arch.firebaseapp.com",
