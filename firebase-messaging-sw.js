@@ -12,7 +12,11 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
-messaging.setBackgroundMessageHandler(function (payload) {
+messaging.setBackgroundMessageHandler((payload) => {
+  console.log(
+    "[firebase-messaging-sw.js] Received background message ",
+    payload
+  );
   const promiseChain = clients
     .matchAll({
       type: "window",
@@ -25,10 +29,19 @@ messaging.setBackgroundMessageHandler(function (payload) {
       }
     })
     .then(() => {
-      return registration.showNotification("New Message");
+      const notificationOptions = {
+        body: payload.notification.body,
+        icon: payload.notification.icon,
+      };
+
+      return registration.showNotification(
+        payload.notification.title,
+        notificationOptions
+      );
     });
   return promiseChain;
 });
+
 self.addEventListener("notificationclick", function (event) {
-  console.log("notification received: ", event);
+  console.log("notification clicked: ", event);
 });
